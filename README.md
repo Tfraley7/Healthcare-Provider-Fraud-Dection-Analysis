@@ -11,7 +11,7 @@ Analyzing healthcare fraud with PostgreSQL, Pandas, and ML
 
 </br>
 
-In the healthcare industry, fraud detection is a crucial aspect of maintaining cost efficiency and high-quality patient care. To address this, a machine learning model was developed to detect fraud in medical claims using a dataset from Kaggle (https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis). This analysis covers the data exploration phase, data cleaning, and model development, with the goal of creating a machine learning model that may predict fraud in healthcare.
+In the field of healthcare, detecting fraud is essential for preserving cost effectiveness and delivering top-notch patient care. To tackle this issue, a machine learning model has been designed to identify fraudulent medical claims using a dataset sourced from Kaggle (https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis). This examination encompasses the stages of data exploration, data cleansing, and model creation, with the objective of developing a machine learning model capable of predicting healthcare fraud.
 
 </br>
 
@@ -19,8 +19,7 @@ In the healthcare industry, fraud detection is a crucial aspect of maintaining c
 
 </br>
 
-The analysis begins by examining the data provided in CSV files. The data contains three tables: InpatientClaim, OutpatientClaim, and Beneficiary. These tables store information about inpatient and outpatient claims and the beneficiaries, respectively.
-During the data exploration phase, SQL queries were performed to answer questions such as:
+The analysis starts with an inspection of the data supplied in CSV format. The data consists of three tables: InpatientClaim, OutpatientClaim, and Beneficiary. These tables hold details about inpatient and outpatient claims as well as their associated beneficiaries. Throughout the data exploration stage, SQL queries were executed to address questions like:
 
 * Which providers have the highest number of claims?
 * What types of procedures are most commonly claimed?
@@ -60,9 +59,9 @@ Before building the machine learning model, the data was preprocessed and cleane
 * Handling missing values (NaN) by filling them with appropriate values or replacing them with 'Unknown'
 * Checking for duplicate records and removing them if necessary
 
-After cleaning the data, flags were created in the inpatient and outpatient datasets to distinguish between the two types of claims. The inpatient and outpatient datasets were then concatenated to create a unified 'train_claims' dataset.
+Upon data cleansing, markers were established in the inpatient and outpatient datasets to differentiate the two claim categories. Subsequently, the inpatient and outpatient datasets were combined to form a consolidated 'train_claims' dataset.
 
-The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to create a comprehensive 'train_data' dataset. Next, the length of stay for each claim and the total number of chronic conditions for each beneficiary were calculated. These new features can be useful for the machine learning model.
+The 'train_claims' dataset was then merged with the 'train_beneficiary' dataset, resulting in an all-encompassing 'train_data' dataset. Following this, the duration of stay for each claim and the cumulative count of chronic conditions for every beneficiary were computed. These newly derived features have the potential to enhance the machine learning model's performance
 
 
 ## Preprocessing
@@ -111,7 +110,7 @@ The confusion matrix:
 
 ## Conclusion
 
-Our machine learning model demonstrates promising performance in detecting fraudulent medical claims using the given dataset. The RandomForestClassifier achieved an accuracy of 87%, with a precision of 0.91 and a recall of 0.74 for fraud detection. This report has covered the data exploration, preprocessing, model training, and evaluation processes. This model could serve well as a valuable resource for recruiters and data scientists interested in healthcare fraud detection.
+Our machine learning model demonstrates promising performance in detecting fraudulent medical claims using the given dataset. The RandomForestClassifier achieved an accuracy of 87%, with a precision of 0.91 and a recall of 0.74 for fraud detection. This report has covered the data exploration, preprocessing, model training, and evaluation processes. This model could serve well as a valuable resource for healthcare fraud detection after further testing to ensure accuracy.
 
 </br>
 
