@@ -3,7 +3,7 @@ Analyzing healthcare fraud with PostgreSQL, Pandas, and ML
 
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Medical.jpeg">
+  <img width="560" height="300" src="Images/Medical.jpeg">
 </p>
 <br/>
 
@@ -112,3 +112,12 @@ The confusion matrix:
 ## Conclusion
 
 Our machine learning model demonstrates promising performance in detecting fraudulent medical claims using the given dataset. The RandomForestClassifier achieved an accuracy of 87%, with a precision of 0.91 and a recall of 0.74 for fraud detection. This report has covered the data exploration, preprocessing, model training, and evaluation processes. This model could serve well as a valuable resource for recruiters and data scientists interested in healthcare fraud detection.
+
+</br>
+
+## Resources:
+
+Images provided by Google
+
+
+Data: https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis
