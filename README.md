@@ -48,17 +48,17 @@ The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to cr
 </br>
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Highest_AVG_Claims.PNG">
+  <img width="480" height="300" src="Images/Highest_AVG_Claims.png">
 </p>
 <br/>
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Common_Claims.PNG">
+  <img width="480" height="300" src="Images/Common_Claims.png">
 </p>
 <br/>
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Highest_Claims.PNG">
+  <img width="480" height="300" src="Images/Highest_Claims.png">
 </p>
 <br/>
 <br/>
