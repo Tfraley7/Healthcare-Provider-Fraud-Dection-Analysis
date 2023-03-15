@@ -11,7 +11,7 @@ Analyzing healthcare fraud with PostgreSQL, Pandas, and ML
 
 </br>
 
-In the healthcare industry, fraud detection is a crucial aspect of maintaining cost efficiency and high-quality patient care. To address this, a machine learning model was developed to detect fraud in medical claims using a dataset from Kaggle (https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis). This analysis covers the data exploration phase, data cleaning, and model development, with the goal of creating a machine learning model that could predict fraud in healthcare.
+In the healthcare industry, fraud detection is a crucial aspect of maintaining cost efficiency and high-quality patient care. To address this, a machine learning model was developed to detect fraud in medical claims using a dataset from Kaggle (https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis). This analysis covers the data exploration phase, data cleaning, and model development, with the goal of creating a machine learning model that may predict fraud in healthcare.
 
 </br>
 
