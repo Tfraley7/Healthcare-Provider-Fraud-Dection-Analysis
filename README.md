@@ -27,20 +27,6 @@ During the data exploration phase, SQL queries were performed to answer question
 * Which providers have the highest average claim amount?
 * Are there any correlations between the different features in the dataset?
 
-The CSV files were then combined and loaded into a pandas DataFrame for further processing.
-
-Machine Learning Model
-
-Before building the machine learning model, the data was preprocessed and cleaned. This included:
-
-* Converting date columns to datetime format
-* Handling missing values (NaN) by filling them with appropriate values or replacing them with 'Unknown'
-* Checking for duplicate records and removing them if necessary
-
-After cleaning the data, flags were created in the inpatient and outpatient datasets to distinguish between the two types of claims. The inpatient and outpatient datasets were then concatenated to create a unified 'train_claims' dataset.
-
-The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to create a comprehensive 'train_data' dataset. Next, the length of stay for each claim and the total number of chronic conditions for each beneficiary were calculated. These new features can be useful for the machine learning model.
-
 <br/>
 <p align="center">
   <img width="460" height="200" src="Images/Correlation.png">
@@ -62,6 +48,22 @@ The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to cr
 </p>
 <br/>
 <br/>
+
+
+The CSV files were then combined and loaded into a pandas DataFrame for further processing.
+
+## Machine Learning Model
+
+Before building the machine learning model, the data was preprocessed and cleaned. This included:
+
+* Converting date columns to datetime format
+* Handling missing values (NaN) by filling them with appropriate values or replacing them with 'Unknown'
+* Checking for duplicate records and removing them if necessary
+
+After cleaning the data, flags were created in the inpatient and outpatient datasets to distinguish between the two types of claims. The inpatient and outpatient datasets were then concatenated to create a unified 'train_claims' dataset.
+
+The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to create a comprehensive 'train_data' dataset. Next, the length of stay for each claim and the total number of chronic conditions for each beneficiary were calculated. These new features can be useful for the machine learning model.
+
 
 ## Preprocessing
 
