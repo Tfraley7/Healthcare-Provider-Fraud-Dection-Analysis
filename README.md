@@ -43,7 +43,7 @@ The 'train_claims' dataset was merged with the 'train_beneficiary' dataset to cr
 
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Correlation.PNG">
+  <img width="460" height="200" src="Images/Correlation.png">
 </p>
 </br>
 <br/>
